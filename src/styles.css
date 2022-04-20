@@ -1,0 +1,273 @@
+body {
+  margin: 0px;
+}
+
+.fontWhite {
+  color: white;
+}
+
+.buttonBrd {
+  border: none;
+}
+
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuPanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0px 0px 100px 10px;
+}
+
+.menuPanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.menuPanel a:hover {
+  color: #f1f1f1;
+}
+
+.menuPanel .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 25px;
+  background: transparent;
+  border: none;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+input {
+  background: url(https://img.icons8.com/ios-glyphs/25/000000/search--v1.png)
+    top left no-repeat;
+  height: 30px;
+  padding-left: 30px;
+  background-color: white;
+  border-radius: 5px;
+  width: 70vw;
+}
+
+.searchComponent {
+  min-height: 300px;
+  height: 50vh;
+  background: url("https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232499.webp?mode=stretch")
+    no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.searchHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 10px;
+}
+
+.mainLogo {
+  margin-top: 3vh;
+}
+
+.middleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middleContentText {
+  width: 70vw;
+  text-align: center;
+}
+
+.middleContentFooter {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.menuTabsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.menuTabGridButtons {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clgBtn {
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.exmBtn {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.optionsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin: 20px;
+}
+
+.optionsGridItems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.activeBtn {
+  background-color: orange;
+  color: white;
+}
+
+.selectorBtn {
+  background-color: lightgrey;
+  color: orange;
+}
+
+.carouselContainer {
+  margin: 20px;
+  background-color: lightgrey;
+}
+
+.carouselContainerBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carouselFooter {
+  background-color: white;
+  height: 30px;
+  width: 100%;
+  text-align: left;
+  font-size: 10px;
+}
+
+.scrollClg {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollClg .scrollClgItems {
+  height: 200px;
+  width: 400px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  background: url("https://images.collegedunia.com/public/asset/img/homepage/banner/Indian1642232971.webp?mode=stretch");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 24px;
+}
+
+.scrollClg .scrollClgItems .itemsContainer {
+  position: relative;
+}
+
+.rating {
+  position: absolute;
+  right: 0px;
+}
+
+.clgInfo {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.loginPanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: 0px 0px 100px 10px;
+}
+
+.loginPanel .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 25px;
+  background: transparent;
+  border: none;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.fbBtn {
+  background-color: blue;
+  width: 70vw;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gBtn {
+  background-color: red;
+  margin-bottom: 0px;
+}
+
+.loginBtn {
+  border-radius: 3px;
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.signUp {
+  margin-right: 0px;
+}
